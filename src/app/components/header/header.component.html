@@ -1,25 +1,37 @@
 <header>
   <mat-grid-list cols="3" rowHeight="100%">
-    <mat-grid-tile>
-      <div class="logo">
-        <mat-icon>Music Note</mat-icon>
+    <mat-grid-tile class="header-logo">
+      <div class="logo" style="justify-content: left">
+        <button mat-icon-button>
+          <mat-icon class="logo-icon">music_note</mat-icon>
+        </button>
+        Music e-store
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div class="search-bar">
         <mat-form-field appearance="outline" style="width: 20vw">
+
           <mat-label>Search</mat-label>
           <input matInput>
+
           <mat-hint align="end">Search for products</mat-hint>
         </mat-form-field>
-        <!--<input type="text" placeholder="Search.."/>
-        <button>Search</button>-->
+        <button mat-icon-button style="background-color: #F3F3F3">
+          <mat-icon style="font-size: 40px">search</mat-icon>
+        </button>
       </div>
     </mat-grid-tile>
-    <mat-grid-tile>
-      <div class="basket">
-        <mat-icon>Face</mat-icon>
-        <mat-icon>Shopping Basket</mat-icon>
+    <mat-grid-tile class="header-cart">
+      <div class="account-icon">
+        <button mat-icon-button class="header-buttons">
+          <mat-icon class="header-icons">account_circle</mat-icon>
+        </button>
+      </div>
+      <div class="shopping-cart-icon">
+        <button mat-icon-button class="header-buttons">
+          <mat-icon class="header-icons">shopping_cart</mat-icon>
+        </button>
       </div>
     </mat-grid-tile>
   </mat-grid-list>

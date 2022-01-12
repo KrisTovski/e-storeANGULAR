@@ -27,8 +27,31 @@ header {
   background-color: #F3F3F3;
 }
 
+.header-logo {
+  justify-content: left;
+}
 .logo {
-  text-align: left;
+   text-align: left;
+ }
+
+.logo-icon {
+  font-size: 56px;
+  color: #916dd1;
+}
+
+.header-cart{
+  justify-content: right;
+}
+
+
+.header-icons{
+  font-size: 36px;
+  color: #916dd1;
+
+}
+
+.account-icon{
+  margin-right: 20px;
 }
 
 .nav-block {
