@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: auto;
+  max-width: 1400px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  background-color: #F3F3F3;
+}
+
+/*
+HEADER
+*/
+header {
+  height: 124px;
+  background-color: #F3F3F3;
+}
+
+.logo {
+  text-align: left;
+}
+
+.nav-block {
+  float: left;
+}
+
+.nav-button {
+  color: #FAFAFA;
+  background-color: #916dd1;
+}
+
+footer {
+  height: 124px;
+  background-color: #F3F3F3;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+span {
+  padding-right: 1rem;
+}
+
+mat-sidenav-container {
+  height: 100%;
+  background-color: #F3F3F3;
+}
+
+mat-sidenav, mat-sidenav-content {
+  padding: 16px;
+}
+
+mat-sidenav {
+  background-color: #ffffff;
+  width: 300px;
+}
+
