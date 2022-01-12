@@ -33,11 +33,13 @@ header {
 
 .nav-block {
   float: left;
+  margin-right: 20px;
 }
 
 .nav-button {
   color: #FAFAFA;
   background-color: #916dd1;
+  width: auto;
 }
 
 footer {
