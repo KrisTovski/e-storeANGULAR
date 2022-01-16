@@ -8,7 +8,7 @@ import {ProductCategory} from "../common/product-category";
 })
 export class ProductCategoryService {
 
-  private baseUrl = 'http://localhost:8080/categories';
+  private baseUrl = 'http://localhost:8080/api/v1/categories';
 
   constructor(private httpClient: HttpClient) { }
 

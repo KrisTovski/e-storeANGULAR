@@ -1,17 +1,18 @@
 <div>
   <mat-grid-list cols="4">
-    <mat-grid-tile
-      *ngFor="let tempCategory of categories">
-      <mat-card>
+    <mat-grid-tile *ngFor="let tempCategory of categories">
+
+      <mat-card class="category-cards">
         <mat-card-header>
           <h1>{{tempCategory.name}}</h1>
         </mat-card-header>
 
-        <img src="{{tempCategory.imageUrl}}" height="100" >
+        <img src="{{tempCategory.imageUrl}}" height="100">
         <mat-card-content>
           {{tempCategory.description}}
         </mat-card-content>
       </mat-card>
+
     </mat-grid-tile>
   </mat-grid-list>
 </div>
